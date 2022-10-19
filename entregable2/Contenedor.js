@@ -68,7 +68,7 @@ class Contenedor{
         if (elemento.length != 0){
           return elemento
         }else {
-          return `No se encontro el producto con el id ${id}`
+          return `No se encontro el vehiculo con el id ${id}`
         }
     } catch (error) {
         console.log(error)

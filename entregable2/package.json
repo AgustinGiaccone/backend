@@ -1,0 +1,19 @@
+{
+  "name": "entregable2",
+  "version": "1.0.0",
+  "description": "segundo entregable de los desafios de coderhous",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinGiaccone/backend.git"
+  },
+  "author": "Agustin Giaccone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgustinGiaccone/backend/issues"
+  },
+  "homepage": "https://github.com/AgustinGiaccone/backend#readme"
+}
