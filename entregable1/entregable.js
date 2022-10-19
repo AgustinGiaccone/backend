@@ -8,13 +8,13 @@ class Usuario {
     obtenerNombreCompleto(){
         return `${this.name} ${this.lastnName}`
     }
-    nuevoLibro(libro, autor){
+    agregaNuevoLibro(libro, autor){
         this.books.push({libro , autor})
     }
     mostrarLibro(){
         return this.books
     }
-    nuevaMascota(animal, nombre){
+    agregaNuevaMascota(animal, nombre){
         this.pets.push({animal,nombre})
     }
     mostrarMascota(){
@@ -34,9 +34,9 @@ let mascotasagus = [{animal:'perro', nombre:'fido'},{animal:'gato', nombre:'tucz
 
 let personita = new Usuario ("Agustin", "Giaccone", books, mascotasagus)
 
-personita.nuevoLibro('el libro de la selva', 'Rudyard Kipling')
-personita.nuevaMascota('perro', 'capitan')
-personita.nuevaMascota('gato', 'michi')
+personita.agregaNuevoLibro('el libro de la selva', 'Rudyard Kipling')
+personita.agregaNuevaMascota('perro', 'capitan')
+personita.agregaNuevaMascota('gato', 'michi')
 
 
 console.log(personita)
